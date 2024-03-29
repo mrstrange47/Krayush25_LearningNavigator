@@ -32,10 +32,7 @@ Subject
 List of enrolled Students
 
 **----------------------------------------------------------------------**
-The entities must use Foreign Key relationships wherever necessary
-
-Students can register for the exam only after enrolling in the corresponding subject
-
-Handle common errors gracefully and return appropriate HTTP codes (Ex. 404, User not found)
-
-Use GlobalExceptionHandler and @ControllerAdvice to organize and streamline Exception Handling
+The entities must use Foreign Key relationships wherever necessary.
+Students can register for the exam only after enrolling in the corresponding subject.
+Handle common errors gracefully and return appropriate HTTP codes (Ex. 404, User not found).
+Use GlobalExceptionHandler and @ControllerAdvice to organize and streamline Exception Handling.
