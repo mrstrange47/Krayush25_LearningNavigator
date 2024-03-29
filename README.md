@@ -39,6 +39,7 @@ Subject
 List of enrolled Students
 
 **----------------------------------------------------------------------**
+
 The entities must use Foreign Key relationships wherever necessary.
 
 Students can register for the exam only after enrolling in the corresponding subject.
