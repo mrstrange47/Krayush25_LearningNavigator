@@ -15,24 +15,34 @@ The API must handle CRUD operations for Students, Subjects, and Exams
 **Each Student has the following fields:**
 
 Student Registration ID (Unique Identifier)
+
 Student Name
+
 List of enrolled Subjects
+
 List of registered Exams
 
 **Each Subject has the following fields:**
 
 Subject ID (Unique Identifier)
+
 Subject Name
+
 List of registered Students
 
 **Each Exam has the following fields:**
 
 Exam ID (Unique Identifier)
+
 Subject
+
 List of enrolled Students
 
 **----------------------------------------------------------------------**
 The entities must use Foreign Key relationships wherever necessary.
+
 Students can register for the exam only after enrolling in the corresponding subject.
+
 Handle common errors gracefully and return appropriate HTTP codes (Ex. 404, User not found).
+
 Use GlobalExceptionHandler and @ControllerAdvice to organize and streamline Exception Handling.
